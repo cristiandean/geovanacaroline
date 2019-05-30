@@ -1,0 +1,197 @@
+body{
+    background: #e0e0e0;
+}
+.container {
+    width: 900px;
+    min-height: 800px;
+    margin: 10px auto;
+    position: relative;
+    padding: 0;
+    background: #FFF;
+    -webkit-box-shadow: 0px 1px 6px #696969;
+    -moz-box-shadow: 0px 1px 6px #696969;
+    box-shadow: 0px 1px 6px #696969;
+
+}
+
+.container .header {
+    width: 100%;
+    height: 300px;
+    background: url(montain.jpg) -200px 400px;
+}
+
+.container .me {
+    width: 150px;
+    height: 150px;
+    background: url(me.jpg) no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+    position: absolute;
+    top: 50px;
+    left: 120px;
+    border: solid 4px #FFF;
+}
+
+.container .info-me {
+    color: #FFF;
+    position: absolute;
+    top: 200px;
+    left: 80px;
+    text-align: center;
+}
+
+.container .info-me h3, .container .info-me h4 {
+    margin: 5px;
+    font-weight: normal !important;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.container .header .goal {
+    width: 450px;
+    right: 100px;
+    top: 40px;
+    position: absolute;
+    color: #FFF;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.container .header .info {
+    width: 450px;
+    position: absolute;
+    right: 100px;
+    background: rgba(19, 33, 84, 0.5);
+    top: 155px;
+    padding: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 11px;
+}
+
+.container .header .info .row {
+    margin: 10px 0;
+}
+
+.container .content {
+    margin-top: 30px;
+    background: #FFF;
+    width: 100%;
+    min-height: 100px;
+    position: relative;
+    top: 0px;
+    padding: 20px;
+    color: #474747;
+    font-size: 11px;
+}
+
+.container .section {
+    color: #33529d;
+    border-bottom: solid 2px #7fa0c3;
+    text-transform: capitalize;
+    padding: 10px;
+}
+
+.experiences {
+    margin: 15px 0px;
+    padding: 0px;
+}
+
+.experiences h5 {
+    margin: 3px 0px;
+    padding: 0px;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 800;
+}
+
+.experiences .date {
+    text-align: right;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 12px;
+    display: block;
+}
+
+.experiences li span {
+    color: #999;
+}
+
+.experiences li, .formation li {
+    display: block;
+    position: relative;
+    padding: .75em 5em .75em 1em;
+    margin-bottom: .5em;
+    border-left: solid 2px #d7d7d7;
+    background: #fff;
+    position: relative;
+}
+
+.experiences li .dot, .formation li .dot {
+    width: 10px;
+    height: 10px;
+    background: #bcbcbc;
+    display: block;
+    position: absolute;
+    border-radius: 100%;
+    top: -9px;
+    left: -6px;
+}
+
+.formation {
+    margin: 15px 0px;
+    padding: 0px;
+}
+
+.formation h4 {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+.formation h5 {
+    margin: 3px 0px;
+    padding: 0px;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 800;
+    color: #acacac;
+}
+
+.formation span {
+    color: #acacac;
+}
+
+.courses li img {
+    width: 100%;
+    margin-top: 17px;
+}
+
+.dot-on, .dot-off {
+    width: 10px;
+    height: 10px;
+    background: #636363;
+    display: inline-block;
+    border-radius: 100%;
+}
+
+.dot-off {
+    background: #bcbcbc;
+}
+
+.ico-link, .ico-link:hover, .ico-link:active, .ico-link:focus{
+    text-decoration: none;
+    font-size: 12px;
+    color: #000;
+}
+
+.h4, h4 {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+
+.skills .col-xs-2{
+    min-height:20px;
+}
